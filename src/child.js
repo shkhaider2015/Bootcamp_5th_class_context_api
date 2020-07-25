@@ -11,7 +11,7 @@ const Child = () => {
             <h4>Counter Value is : {counterValue[0]} </h4>
 
             <button onClick={()=>{counterValue[1](++counterValue[0])}}>
-                Update
+                Update Context
             </button>
         </div>
     )
